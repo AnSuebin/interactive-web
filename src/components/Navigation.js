@@ -27,7 +27,7 @@ const Navigation = () => {
     <Container>
       <MenuContainer>
         <Menu>Switch</Menu>
-        <Menu>Drag&Drop</Menu>
+        <Menu onClick={() => navigate('DandD')}>Drag&Drop</Menu>
         <Menu>DropList</Menu>
         <Menu onClick={() => navigate('carousel')}>Carousel</Menu>
       </MenuContainer>
