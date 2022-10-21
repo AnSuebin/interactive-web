@@ -4,7 +4,6 @@ import Carousel from './pages/Carousel';
 import DandD from './pages/DandD';
 import DropList from './pages/DropList';
 import Switch from './pages/Switch';
-import Speech from './pages/Speech';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route path="/DandD" element={<DandD />} />
           <Route path="/dropList" element={<DropList />} />
           <Route path="/carousel" element={<Carousel />} />
-          <Route path="/speech" element={<Speech />} />
         </Route>
       </Routes>
     </BrowserRouter>

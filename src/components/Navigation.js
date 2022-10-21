@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -23,6 +23,11 @@ const Menu = styled.div`
 
 const Navigation = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    setTimeout(() => {
+      navigate('switch');
+    }, 1000);
+  }, []);
   return (
     <Container>
       <MenuContainer>
@@ -30,7 +35,6 @@ const Navigation = () => {
         <Menu onClick={() => navigate('DandD')}>Drag&Drop</Menu>
         <Menu onClick={() => navigate('dropList')}>DropList</Menu>
         <Menu onClick={() => navigate('carousel')}>Carousel</Menu>
-        <Menu onClick={() => navigate('speech')}>Speech</Menu>
       </MenuContainer>
     </Container>
   );
