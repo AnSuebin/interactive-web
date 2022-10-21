@@ -30,6 +30,7 @@ const Navigation = () => {
         <Menu onClick={() => navigate('DandD')}>Drag&Drop</Menu>
         <Menu onClick={() => navigate('dropList')}>DropList</Menu>
         <Menu onClick={() => navigate('carousel')}>Carousel</Menu>
+        <Menu onClick={() => navigate('speech')}>Speech</Menu>
       </MenuContainer>
     </Container>
   );
