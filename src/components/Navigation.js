@@ -12,15 +12,9 @@ const MenuContainer = styled.div`
 `;
 
 const Menu = styled.div`
-  @font-face {
-    font-family: 'Cafe24Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff')
-      format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  font-family: 'Cafe24Ssurround';
-  font-size: 20px;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
   font-weight: 800;
   padding: 10px;
   cursor: pointer;
