@@ -29,8 +29,6 @@ const backgroundColorList = [
 ];
 
 const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
 `;
@@ -41,7 +39,7 @@ const DNDListContianer = styled.ul`
 const DNDList = styled.div`
   font-family: 'Cafe24Ssurround';
   color: rgb(67, 67, 67);
-  width: 500px;
+  width: 400px;
   margin: 6px;
   padding: 10px;
   border-radius: 10px;

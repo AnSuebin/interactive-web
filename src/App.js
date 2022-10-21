@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Carousel from './pages/carousel/Carousel';
-import DandD from './pages/DandD/DandD';
-import DropList from './pages/dropList/DropList';
-import Switch from './pages/switch/Switch';
+import Carousel from './pages/Carousel';
+import DandD from './pages/DandD';
+import DropList from './pages/DropList';
+import Switch from './pages/Switch';
 
 function App() {
   return (
