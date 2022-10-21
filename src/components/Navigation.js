@@ -19,6 +19,7 @@ const Menu = styled.div`
     font-weight: normal;
     font-style: normal;
   }
+  font-family: 'Cafe24Ssurround';
   font-size: 20px;
   font-weight: 800;
   padding: 10px;
